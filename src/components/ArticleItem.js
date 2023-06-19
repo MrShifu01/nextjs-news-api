@@ -8,7 +8,6 @@ const ArticleItem = ({article}) => {
             <h3>{article.title} &rarr;</h3>
             <p>{article.description}</p>
         </div>
-
     </Link>
   )
 }

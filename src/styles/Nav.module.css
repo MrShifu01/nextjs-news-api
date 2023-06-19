@@ -3,11 +3,11 @@
     max-width: 1440px;
     margin: 0 auto;
     padding: 10px;
-    background: #000;
+    background: #444;
     color: #fff;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
   }
   
   .nav ul {
