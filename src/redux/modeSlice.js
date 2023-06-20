@@ -1,5 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit'
 
+// State slice for changing between dark and light mode
 export const modeSlice = createSlice({
     name: "mode",
 

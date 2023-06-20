@@ -1,22 +1,25 @@
 .nav {
-    height: 50px;
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 10px;
-    background: #777;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .nav ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-  }
-  
-  .nav ul li a {
-    margin: 5px 15px;
-  }
+  /* Set the height, max width, margin, padding, background color, text color, and display properties for the .nav element */
+  height: 60px;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 10px;
+  background: #777;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav ul {
+  /* Set the display, justify-content, align-items, and list-style properties for the ul element inside .nav */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.nav ul li a {
+  /* Set the margin for the anchor elements inside li elements inside ul elements inside .nav */
+  margin: 5px 15px;
+}

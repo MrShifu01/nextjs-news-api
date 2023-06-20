@@ -1,13 +1,7 @@
-.title a,
+/* Styling of the header component ElonNews */
 .title span {
   color: orange;
   text-decoration: none;
-}
-
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
 }
 
 .title {

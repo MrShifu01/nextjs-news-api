@@ -17,6 +17,8 @@ const Nav = () => {
             <li>
                 <Link href="/about">About</Link>
             </li>
+
+            {/* Dispatching the dark and light modes */}
             <li className='mode'>
                 {mode === "light" && <div
                 onClick={() => dispatch(darkMode())}
