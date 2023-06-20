@@ -1,5 +1,6 @@
 import Meta from "@/components/Meta";
 
+// Function to display the about page with dynamic title
 const About = () => {
   return (
     <div>
@@ -16,6 +17,7 @@ const About = () => {
       <p>Stay tuned for more thrilling updates, mind-bending inventions, and maybe even an exclusive interview with a sentient Tesla car. Who knows what surprises await?</p>
       <p>Thank you for being a part of the "Elon's Wild News" family!</p>
 
+{/* Styling of the about page */}
       <style jsx>{`
         .title {
           margin: 2rem;

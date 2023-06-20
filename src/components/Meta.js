@@ -1,11 +1,10 @@
 import Head from 'next/head'
 
-const Meta = ({ title, keywords, description }) => {
+// A Function for setting the HTML Meta data, allows title exceptions
+const Meta = ({ title }) => {
   return (
     <Head>
       <meta name='viewport' content='width=device-width, initial-scale=1' />
-      <meta name='keywords' content={keywords} />
-      <meta name='description' content={description} />
       <meta charSet='utf-8' />
       <link rel='icon' href='/favicon.ico' />
       <title>{title}</title>
@@ -13,10 +12,9 @@ const Meta = ({ title, keywords, description }) => {
   )
 }
 
+// Has the site headline as the default title, but changes dynamically
 Meta.defaultProps = {
-  title: 'WebDev News',
-  keywords: 'web development, programming',
-  description: 'Get the latest news in web dev',
+  title: 'Elon News',
 }
 
 export default Meta
